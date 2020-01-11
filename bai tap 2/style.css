@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    }
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 3%;
+    padding-top: 1%;
+    text-transform: uppercase;
+    justify-content: space-around;
+    }
+header{
+    background-color: rgb(161, 170, 238);
+    padding-bottom: 1%;
+    width: 100%;
+    }
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    display: block;
+    text-align: center;
+}
+form{
+    padding-left: 3%;
+    text-align: justify;
+}
+.name{
+    display: block;
+    justify-content: space-around;
+    
+}
+.email{
+    display: block;
+    justify-content: space-around;
+    
+}
+.info{
+    opacity: 60%;
+    
+}
+
+
