@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: cadetblue;
+    height: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.services{
+    display: none;
+}
+
+li:hover .services{
+    display: block;
+    background-color: cyan;
+    height: fit-content;
+}
+
