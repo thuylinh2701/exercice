@@ -1,71 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Bai tap 2</title>
-</head>
-<header>
+  </head>
+  <header>
     <div class="menu">
-        <ul>
-            <li>
-                <a href="index.html" title="Home"> Home </a>
-            </li>
-            <li>
-                <a href="About us.html" title="About us"> About Us </a>
-            </li>
-            <li>
-                <a href="Services.html" title="Services"> Services </a>
-            </li>
-            <li>
-                <a href="Porfolio.html" title="Porfolio"> Porfolio </a>
-            </li>
-            <li>
-                <a href="Contact us.html" title="Contact Us"> Contact Us </a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a href="index.html" title="Home"> Home </a>
+        </li>
+        <li>
+          <a href="About us.html" title="About us"> About Us </a>
+        </li>
+        <li>
+          <a href="Services.html" title="Services"> Services </a>
+        </li>
+        <li>
+          <a href="Porfolio.html" title="Porfolio"> Porfolio </a>
+        </li>
+        <li>
+          <a href="Contact us.html" title="Contact Us"> Contact Us </a>
+        </li>
+      </ul>
     </div>
     <div class="title">
-        <h1>Lorem ipsum dolor sit amet </h1>
-        <p>LOREM IPSUM DOLOR SIT</p>
-</header>
-<form action="action.html">
-
-    Name
-    <div class="name">
-        <input type="text" name="name"><br>
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>LOREM IPSUM DOLOR SIT</p>
     </div>
-    Email
+  </header>
+  <form action="action.html">
+    <div class="name">
+      <label for="name">Name</label>
+
+      <input id="name" type="text" name="name" /><br />
+    </div>
     <div class="email">
-        <input type="email" name="email">
-    </div><br>
-    Type of Talk <br>
+      <label for="email">Email</label>
+
+      <input id="email" type="email" name="email" />
+    </div>
+    <br />
+    Type of Talk <br />
     Main stage
-    <input type="checkbox" name="Main stage" id="mainstage">
+    <input type="checkbox" name="Main stage" id="mainstage" />
     Workshop
-    <input type="checkbox" name="Workshop" id="workshop"><br><br>
+    <input type="checkbox" name="Workshop" id="workshop" /><br /><br />
     T-shirt style
     <select name="size">
-        <option value="XL">XL</option>
-        <option value="L">L</option>
-        <option value="M">M</option>
-        <option value="S">S</option>
-        <option value="XS">XS</option>
-    </select> <br><br>
-    Description <br>
-    <textarea name="Description" id="" cols="50" rows="10" maxlength="500"></textarea>
+      <option value="XL">XL</option>
+      <option value="L">L</option>
+      <option value="M">M</option>
+      <option value="S">S</option>
+      <option value="XS">XS</option>
+    </select>
+    <br /><br />
+    Description <br />
+    <textarea
+      name="Description"
+      id=""
+      cols="50"
+      rows="10"
+      maxlength="500"
+    ></textarea>
     <p class="info">Descript your text less than 500 words</p>
-    <input type="checkbox" name="available" id="available"> I'm actually available the date of the talk <br><br>
-    <button type="button" class="btn btn-success">Submit</button>
-</form>
+    <input type="checkbox" name="available" id="available" /> I'm actually
+    available the date of the talk <br /><br />
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form>
 
-<body>
-
-</body>
-
+  <body></body>
 </html>
